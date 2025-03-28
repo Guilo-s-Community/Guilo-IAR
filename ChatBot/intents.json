@@ -1,0 +1,60 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem","como vai"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","fui","beleza"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?","vai ter exame?"],
+    "responses": ["no dia 26"]
+  },
+  {
+    "tag": "sobre_pipe",
+    "patterns": ["O que é o programa PIPE?", "Como funciona o programa PIPE?", "O que significa PIPE??"],
+    "responses": ["O programa PIPE oferece diversos benefícios às pequenas empresas, como apoio financeiro para a realização de pesquisas inovadoras, parceria com instituições acadêmicas, desenvolvimento de novos produtos e processos, aumento da competitividade no mercado e a promoção de uma cultura de inovação tecnológica dentro da empresa. Além disso, o programa contribui para o fortalecimento da colaboração entre o setor empresarial e o acadêmico."]
+  },
+  {
+    "tag": "etapas_pipe",
+    "patterns": ["Há diferentes etapas no programa?", "Quantas etapas tem o PIPE?", "Como funciona as fases do programa PIPE?"],
+    "responses": ["a) Fase 1: é destinada à verificação da viabilidade técnico-científica da proposta, (duração de até 9 meses e orçamento de até R$ 300.000, mais Reserva Técnica e Benefícios Complementares); b) Fase 2: destina-se à execução da pesquisa propriamente dita (duração de até 24 meses e orçamento de até R$ 1.500.000, mais Reserva Técnica e Benefícios Complementares); c) PIPE Invest: Aceleração da chegada ao mercado de Projetos da Fase 2, quando houver terceira parte interessada (duração de até 24 meses e orçamento de até R$ 1.500.000); e d) Fase 3: desenvolvimento comercial e industrial dos produtos, processos, sistemas e/ou serviços inovadores obtidos a partir de pesquisas anteriores realizadas pela pequena empresa sem o apoio da FAPESP ou a partir de pesquisa apoiada no âmbito do PIPE."]
+  },
+  {
+    "tag": "feito_empresa",
+    "patterns": ["O projeto de pesquisa tem que ser feito na empresa?", "Eu posso fazer o projeto dentro da empresa?", "O programa PIPE apoia empresas apenas as localizadas em São Paulo?"],
+    "responses": ["Sim, obrigatoriamente. O PIPE destina-se a apoiar a execução de pesquisa EM pequenas empresas sediadas no Estado de São Paulo, conforme está explicitado nas normas do programa."]
+  },
+  {
+    "tag": "dedicacao_projeto",
+    "patterns": ["Preciso ter dedicação exclusiva ao projeto?", "Quais são os requisitos de dedicação mínima se o pesquisador principal solicitar a Bolsa PE FAPESP?", "Qual é a carga horária mínima exigida para o pesquisador principal, caso ele não receba bolsa da FAPESP?"],
+    "responses":["Caso o pesquisador principal seja pago pela empresa e não receba bolsa da FAPESP, é exigida a dedicação mínima de 24 horas semanais ao projeto na empresa. Em casos excepcionais, em que a empresa demonstra não poder arcar com o salário do Pesquisador Responsável, a FAPESP pode analisar solicitação de Bolsa de Pesquisa em Pequena Empresa (Bolsa PE FAPESP). Se o pesquisador principal solicitar Bolsa PE, é necessária a dedicação mínima de 40 horas semanais ao projeto."]
+  },
+  {
+    "tag": "bolsas_tipo_pipe",
+    "patterns": ["O que são as bolsas do programa?", "Quais são as bolsas possíveis do PIPE?", "Quantas bolsas existem no programa PIPE?"],
+    "responses":["As bolsas TT-1, TT-2 e TT-3 são bolsas de Treinamento Técnico que têm por objetivo treinar e aperfeiçoar alunos de cursos técnicos, de nível médio e superior e de recém-formados, visando à sua futura incorporação à equipe de P&D da empresa. Para cada bolsa solicitada é fundamental a apresentação de um plano de trabalho individual conforme descrito em fapesp.br/tt. As bolsas TT-4, TT4A e TT-5 São bolsas de Treinamento Técnico destinadas a profissionais com formação altamente especializada, para desenvolver atividades técnicas complexas junto ao projeto de pesquisa. Para cada bolsa solicitada é fundamental a apresentação de um plano de trabalho individual de 2 páginas, detalhando tecnicamente as tarefas a serem realizadas conforme descrito em fapesp.br/tt. O tempo de experiência do candidato é contado após a conclusão da graduação."]
+  },
+  {
+    "tag": "avaliacao_pipe",
+    "patterns": ["Quem avalia os projetos PIPE da FAPESP?", "Como os assessores emitem suas avaliações sobre os projetos?", "Como a decisão final sobre o projeto é tomada na FAPESP?"],
+    "responses":["A FAPESP seleciona especialistas das áreas de conhecimento envolvidas no projeto para avaliá-lo. Projetos PIPE Fase 1 são avaliados por pelo menos dois assessores e projetos Fase 2 são avaliados por pelo menos 3 assessores. A identidade dos assessores é mantida em confidencialidade pela FAPESP, como faz a maior parte das agências de financiamento à pesquisa no mundo. Os assessores emitem pareceres e a FAPESP os reúne em comitês de avaliação que debatem cada caso e elaboram um novo parecer sobre cada projeto. Com base em todos esses pareceres e em uma entrevista com os proponentes, a Coordenação de Área e a Coordenação Adjunta de Pesquisa para Inovação fazem uma recomendação final à Diretoria Científica que emite a decisão final."]
+  },
+  {
+    "tag": "denegado_projeto",
+    "patterns": ["E se meu projeto é denegado?", "O que eu preciso fazer se o meu projeto é denegado?", "Meu projeto foi negado"],
+    "responses":["Nesse caso, você receberá pareceres explicando os motivos da denegação e apontando eventuais fragilidades da proposta apresentada. Caso haja interesse, você pode aprimorar o projeto baseado nos comentários dos assessores e resubmetê-lo em um pedido de “reconsideração”."]
+  },
+  {
+    "tag": "objetivos-pipe",
+    "patterns": ["Quais são os objetios do programa PIPE", "O projeto PIPE tem objetivos?", "Para que serve o PIPE?"],
+    "responses":["1. Apoiar a pesquisa em ciência e tecnologia como instrumento para promover a inovação tecnológica, promover o desenvolvimento empresarial e aumentar a competitividade das pequenas empresas.\n2. Incrementar a contribuição da pesquisa para o desenvolvimento econômico e social.\n3. Induzir o aumento do investimento privado em pesquisa tecnológica.\n4. Possibilitar que as empresas se associem a pesquisadores do ambiente acadêmico em projetos de pesquisa visando à inovação tecnológica.\n5. Contribuir para a formação e o desenvolvimento de núcleos de desenvolvimento tecnológico nas empresas e para o emprego de pesquisadores no mercado."]
+  },
+  {
+    "tag": "doutorado-pipe",
+    "patterns": ["É preciso ter título de doutor para soliticar financiamento no PIPE FAPESP?", "Posso ser mestrado e pedir financiamento no programa PIPE?", "Tem título acadêmico mínimo para solicitar o programa PIPE?"],
+    "responses":["Não. No programa PIPE é fundamental a experiência demonstrada pelo proponente no tema do projeto e a competência demonstrada para a liderança da pesquisa proposta. Embora a titulação acadêmica seja bem-vinda, ela não é de forma nenhuma exigida dos pesquisadores do PIPE."]
+  }
+]
+}
