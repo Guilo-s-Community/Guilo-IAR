@@ -65,6 +65,7 @@ Após encontrar a caixa leve, todos os LEDs do E-puck começam a piscar, enquant
 2. Carregue o mundo `.wbt` fornecido.
 3. Execute a simulação.
 4. Observe o comportamento do robô ao explorar e detectar a caixa leve.
+
 OBS: Antes de executar a simulação, verifique se o controlador "controller_new" está selecionado dentro do E-puck
 
 ## 📌 Observações
