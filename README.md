@@ -1,5 +1,5 @@
 # Inteligência Artificial E Robótica
-## Relatório do Projeto
+# Relatório do Projeto
 O projeto está na pasta ProjetoCC7711 contendo:
  * Controller
  * World
@@ -14,7 +14,7 @@ O projeto está na pasta ProjetoCC7711 contendo:
  * Paulo Vinicius Araujo Feitosa - 24.122.042-5
 
 
-# Robô E-puck com Identificação de Objeto Leve (Webots)
+## Robô E-puck com Identificação de Objeto Leve (Webots)
 
 Este projeto simula um robô E-puck em um ambiente 2D no Webots com o objetivo de encontrar e empurrar a caixa mais leve dentre várias distribuídas no cenário. Após detectar o deslocamento da caixa leve, o robô realiza uma ação, girando sobre seu próprio eixo enquanto pisca seus LEDs.
 
