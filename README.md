@@ -42,14 +42,10 @@ Desenvolver um comportamento autônomo simples baseado em sensores, simulando ca
 
 ## 🤖 Lógica do Robô
 
-### Estados
+### Funções
 
-O comportamento do robô é gerenciado por uma máquina de estados com quatro fases principais:
+O comportamento do robô é gerenciado por funções que diferenciam quando o robô está andando, está empurrando uma caixa, quando está virando, ou de celebração, quando o robô consegue empurrar uma caixa leve
 
-1. **MOVENDO**: O robô anda livremente até detectar um obstáculo.
-2. **EMPURRANDO**: Ao encontrar uma caixa à sua frente, ele tenta empurrá-la.
-3. **VIRANDO**: Caso o robô esteja andando e se encontrar com uma caixa pesada ou parede, o robô começa uma contagem de 2 segundos, que, após passar desta contagem, o robô executa manobras para mudar de direção. 
-5. **ENCONTRADO**: Se uma caixa se mover após o empurrão (detectado pelo Supervisor), ela é identificada como "leve" e o robô gira em comemoração.
 
 ### Identificação da Caixa Leve
 
